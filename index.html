@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>APP Informática - Adrián Fambuena Palomo</title>
+  <meta name="description" content="Proyecto Intermodular - Sistema Informático de APP Informática">
+  <meta name="keywords" content="Informática, Reparaciones, Servidores, Redes, Tienda, Bootstrap">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">APP_Informática</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Sobre la Empresa</a></li>
+          <li><a href="#resume">Infraestructura Técnica</a></li>
+          <li><a href="#services">Servicios y Roles</a></li>
+          <li><a href="#portfolio">Productos en Stock</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Adrián Fambuena Palomo</h2>
+        <p>Proyecto Intermodular: Sistema de Gestión de <span class="typed" data-typed-items="Venta de Hardware, Taller de Reparación, Infraestructura de Redes, Bases de Datos MySQL">APP Informática</span></p>
+        <a href="#about" class="btn-scroll" title="Bajar"><i class="bi bi-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4 text-center">
+            <img src="assets/img/profile-img.jpg" class="img-fluid rounded-4" alt="Adrián Fambuena">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Contextualización del Sistema de Información</h2>
+            <p class="fst-italic text-secondary">
+              Desarrollado para el IES Henri Matisse.
+            </p>
+            <p>
+              El sistema de información propuesto ha sido diseñado para centralizar la gestión global de <strong>APP Informática</strong>, una empresa dedicada a la comercialización minorista de tecnología avanzada y a ofrecer soporte técnico cualificado tanto a particulares como a pequeñas y medianas empresas (PYMEs).
+            </p>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right text-primary"></i> <strong>Sector:</strong> Tecnológico y Comercial</li>
+                  <li><i class="bi bi-chevron-right text-primary"></i> <strong>Centro:</strong> IES Henri Matisse</li>
+                  <li><i class="bi bi-chevron-right text-primary"></i> <strong>Entradas del Flujo:</strong> Clientes, Productos, Ventas, Reparaciones</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right text-primary"></i> <strong>Base de Datos:</strong> MySQL / Relacional</li>
+                  <li><i class="bi bi-chevron-right text-primary"></i> <strong>Salidas de Información:</strong> Facturas, Informes Financieros, Alertas de Stock</li>
+                  <li><i class="bi bi-chevron-right text-primary"></i> <strong>Despliegue:</strong> Arquitectura Cliente-Servidor</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Infraestructura Tecnológica</h2>
+          <p>Análisis de Hardware, Arquitectura de Red y Presupuesto del Sistema Informático de la Tienda.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Servidor y Red</h3>
+            <div class="resume-item pb-0">
+              <h4>Servidor Central Dedicado</h4>
+              <h5>IP Fija: 192.168.1.10</h5>
+              <p><em>Infraestructura Core de la Tienda</em></p>
+              <ul>
+                <li><strong>Hardware:</strong> CPU Intel Xeon / Ryzen 7, 16 GB de RAM, 1 TB SSD NVMe de almacenamiento masivo.</li>
+                <li><strong>Software Base:</strong> Sistema Operativo Ubuntu Server 24.04 LTS.</li>
+                <li><strong>Servicio Web y BD:</strong> Servidor Apache/Nginx con gestor relacional MySQL/MariaDB configurado.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Topología e Infraestructura de Red</h4>
+              <h5>Subred: 192.168.1.0/24</h5>
+              <p>Red de área local cableada e inalámbrica securizada para la correcta transmisión interna de datos.</p>
+              <ul>
+                <li>Router Profesional perimetral con reglas estrictas de Firewall.</li>
+                <li>Switch Gigabit dedicado para interconectar los puestos físicos del taller y oficina.</li>
+                <li>Fibra óptica empresarial simétrica de 300 Mbps y políticas automáticas de Backups en la nube.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Equipamiento Cliente y Costes</h3>
+            <div class="resume-item">
+              <h4>Puestos de Trabajo (Hardware Cliente)</h4>
+              <h5>5 PCs + 2 Tablets</h5>
+              <p>Terminales destinados al personal para acceder mediante entorno web corporativo al servidor central:</p>
+              <ul>
+                <li><strong>1 PC Administrador:</strong> CPU Intel i5/Ryzen 5, 8 GB RAM, SSD (Para control contable y de personal).</li>
+                <li><strong>2 PCs Vendedores:</strong> Destinados al mostrador de cara al público para facturación directa.</li>
+                <li><strong>2 PCs Técnicos + 2 Tablets:</strong> Ubicados en el taller de reparación para actualizaciones en tiempo real a pie de banco.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Resumen de Presupuesto Estimado</h4>
+              <h5>Coste Total de Despliegue: 6.800 €</h5>
+              <ul>
+                <li>Servidor Central + PC Administrador: 2.000 €</li>
+                <li>Equipos de Venta y Técnicos (4 PCs): 2.800 €</li>
+                <li>Dispositivos Móviles (Tablets Taller): 600 €</li>
+                <li>Instalación de Red, Cableado Cat6, Software y Licencias Base: 1.400 €</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section text-center">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Módulos del Sistema y Roles</h2>
+          <p>Estructura de accesos basados en el modelo de roles (RBAC) definido en el diseño de nuestra base de datos.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item inner-box position-relative">
+              <div class="icon"><i class="bi bi-shield-lock"></i></div>
+              <h3>Administrador</h3>
+              <p>Acceso y control total del sistema. Capacidad para la gestión de usuarios, auditoría de logs, alta/baja de proveedores, visualización de informes financieros avanzados y control completo del stock.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item inner-box position-relative">
+              <div class="icon"><i class="bi bi-cart-check"></i></div>
+              <h3>Vendedor</h3>
+              <p>Asignado al módulo comercial. Permisos específicos para dar de alta nuevos clientes, consultar disponibilidad de stock de productos de manera inmediata, tramitar ventas y emitir facturas digitales.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item inner-box position-relative">
+              <div class="icon"><i class="bi bi-wrench-adjustable"></i></div>
+              <h3>Técnico de Taller</h3>
+              <p>Módulo de Soporte. Permite consultar órdenes de trabajo asignadas y actualizar dinámicamente el estado de las reparaciones a través de los estados del ciclo de vida (Pendiente, En Proceso, Finalizada, Entregada).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section bg-light">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Catálogo Destacado en Stock</h2>
+          <p>Muestra simulada extraída del script relacional de la Base de Datos (Muestra de componentes de alto rendimiento).</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class="card p-3 border-0 shadow-sm text-center">
+              <span class="badge bg-primary mb-2">Procesador</span>
+              <h5 class="card-title font-weight-bold">Intel Core i7-13700K</h5>
+              <p class="text-muted small">Marca: Intel</p>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="text-success fw-bold">429.99€</span>
+                <span class="badge bg-light text-dark border">Stock: 15</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card p-3 border-0 shadow-sm text-center">
+              <span class="badge bg-primary mb-2">Gráfica</span>
+              <h5 class="card-title font-weight-bold">NVIDIA RTX 4070 Ti</h5>
+              <p class="text-muted small">Marca: ASUS</p>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="text-success fw-bold">899.50€</span>
+                <span class="badge bg-light text-dark border">Stock: 8</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card p-3 border-0 shadow-sm text-center">
+              <span class="badge bg-warning mb-2">Almacenamiento</span>
+              <h5 class="card-title font-weight-bold">Samsung 990 Pro 2TB</h5>
+              <p class="text-muted small">Marca: Samsung</p>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="text-success fw-bold">175.00€</span>
+                <span class="badge bg-danger-subtle text-danger border fw-bold">Stock Bajo: 4</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card p-3 border-0 shadow-sm text-center">
+              <span class="badge bg-primary mb-2">Memoria RAM</span>
+              <h5 class="card-title font-weight-bold">Corsair Vengeance DDR5</h5>
+              <p class="text-muted small">Marca: Corsair</p>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="text-success fw-bold">120.00€</span>
+                <span class="badge bg-light text-dark border">Stock: 22</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-title">
+          <h2>Contacto y Soporte</h2>
+          <p>Solicitud de información técnica sobre el sistema o peticiones de mantenimiento de redes.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Ubicación</h3>
+                <p>IES Henri Matisse, Valencia, España</p>
+              </div>
+            </div>
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email del Administrador</h3>
+                <p>adrian.fambuena@example.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required="">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Tu Correo Electrónico" required="">
+                </div>
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Asunto / Consulta" required="">
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Detalla los requisitos de hardware o la avería del equipo" required=""></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="loading">Cargando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">¡Tu mensaje ha sido enviado correctamente! Gracias.</div>
+                  <button type="submit" class="btn btn-primary px-4 py-2">Enviar Mensaje</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container text-center">
+      <p>&copy; <span>Copyright 2026</span> <strong class="px-1 sitename">EasyFolio / APP Informática</strong> <span>Todos los derechos reservados</span></p>
+      <div class="credits">
+        Diseñado por <a href="https://bootstrapmade.com/">BootstrapMade</a> | Modificado por Adrián Fambuena Palomo
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
